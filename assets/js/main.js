@@ -145,7 +145,7 @@ jQuery(document).ready(function () {
           start: "top 80%",
           end: "top 30%",
           scrub: true,
-          markers: true,
+          markers: false,
         },
       }
     );
