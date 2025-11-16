@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Gowun Batang";
+  src: url("../fonts/GowunBatang-Regular.woff2") format("woff2"),
+    url("../fonts/GowunBatang-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gowun Batang";
+  src: url("../fonts/GowunBatang-Bold.woff2") format("woff2"),
+    url("../fonts/GowunBatang-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+$f-Gowun: "Gowun Batang";
+
+:root {
+  --fs-44: 44px;
+  --fs-32: 32px;
+  --fs-28: 28px;
+  --fs-22: 22px;
+  --fs-16: 13px;
+}
+
+@media (max-width: 991px) {
+  :root {
+    --fs-44: 30px;
+    --fs-32: 22px;
+    --fs-28: 20px;
+    --fs-22: 18px;
+    --fs-16: 13px;
+  }
+}
+.py-60 {
+  padding-bottom: 60px;
+}
+.pt-60 {
+  padding-top: 60px;
+}
+@media (max-width: 991px) {
+  .py-60 {
+    padding-bottom: 30px;
+  }
+  .pt-60 {
+    padding-top: 30px;
+  }
+}
+
+// dùng trong SCSS
+$fs-44: var(--fs-44);
+$fs-32: var(--fs-32);
+$fs-28: var(--fs-28);
+$fs-22: var(--fs-22);
+$fs-16: var(--fs-16);
+
+$cl-yellow-blur: #ffe8bf;
+$cl-body: #fff6e5;
+$cl-title: #c16a73;
+$cl-white: #fff;
+$cl-black: #000;
+$cl-brown: #bca572;
