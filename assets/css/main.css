@@ -1650,22 +1650,22 @@ footer .copy .row div {
   background-color: #c16a73;
 }
 
-.map {
+.map_ {
   position: relative;
   padding-bottom: 47%;
 }
-.map iframe {
+.map_ iframe {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.map figure {
+.map_ figure {
   position: absolute;
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
   background: unset;
 }
-.map figure img {
+.map_ figure img {
   height: 50px;
 }/*# sourceMappingURL=main.css.map */
